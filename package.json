@@ -1,0 +1,19 @@
+{
+  "name": "zero-slippage-swap-pro",
+  "version": "1.0.0",
+  "description": "Production-ready Fixed Rate Swap for Base Mainnet",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy:base": "hardhat run scripts/deploy.ts --network base_mainnet",
+    "test": "hardhat test"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.22.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "dotenv": "^16.4.5"
+  }
+}
